@@ -57,7 +57,6 @@ function readFile() {
   }
 }
 
-
 module.exports = function report(data) {
   try {
     const lastRun = readFile();
