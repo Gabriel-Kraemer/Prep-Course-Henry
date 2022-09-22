@@ -18,7 +18,6 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
 
-
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
 // Asegúrate que usas "return" cuando la consola te lo pida.
@@ -202,17 +201,22 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return (euro*1.2)
+  return (euro * 1.2);
 }
 
 
 function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
-  //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
-  //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
+  //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if letra.length() > 1{
+    return 'Dato incorrecto';
+  } else if letra != 'a' or letra != 'e' or letra != 'i' or letra != 'o' or letra != 'u'{
+    return 'Es vocal';
+  }
+  return 'Dato incorrecto';
+  }
 }
 
 
