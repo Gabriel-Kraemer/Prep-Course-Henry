@@ -1,0 +1,19 @@
+﻿Variables:
+Las variables, son lugares donde se guarda información.
+Las mismas, pueden contener distintos tipos de información. Pueden ser
+número, pueden ser letras o palabras, pueden contener estados lógicos 
+(true o false), pueden guardar estados como null o undefined.
+
+Strings:
+Las strings son "cadenas de caracteres". Todo aquello que escribamos entre comillas, podemos considerarlo una string.
+
+Funciones (argumentos, return): 
+Las funciones son unos tipos de objetos que pueden realizar varias operaciones y luego pueden llamarse las veces que sea necesario en cualquier parte del programa.
+Las funciones utilizan generalmente argumentos, éstos son los parámetros necesarios para que la funcion pueda realizar las operaciones que tenga definidas.
+Dentro de la función, se utiliza el parámetro return, que es el que devuelve el resultado de la función.
+
+Declaraciones if:
+Se llaman también condicionales, esto es porque proponen una condición para ejecutar un código de programa u otro. Se utiliza también con la declaración "else if", que hará una nueva evaluación, si no se cumple la primera, y un "else", si no se cumple ninguna de las dos primeras. 
+
+Valores booleanos (true, false):
+Estos ya se mencionaron como posibles contenidos de las variables. Son dos condiciones contrapuestas, dos estados digitales, como encendido/apagado, 1/0, blanco o negro.
