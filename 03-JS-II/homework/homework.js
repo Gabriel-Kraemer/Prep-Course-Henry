@@ -135,10 +135,11 @@ function esPrimo(numero) {
 }
 
 function esVerdadero(valor){
-  //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
+  //Escribe una función que reciba un valor booleano y retorne “Soy verdadero”
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  return valor;
+  if (valor) return "Soy verdadero";
+  return "Soy falso";
 }
 
 function tablaDelSeis(){
