@@ -1,0 +1,21 @@
+Detalle de los siguientes conceptos:
+
+Objeto:
+    Según se sabe, todo en JS es un objeto. Ahora, que es un objeto? es una variable, similar a un array, pero con un detalle, todo el contenido dentro, hace referencia a dicho objeto. Es como una descripción detallada de la variable ("objeto").
+    En lugar de tener un indice numérico, contiene una combinación de pares llamada "key:value" ### OJO : No puede haber ";" dentro de un objeto!!!
+
+Propiedades:
+    Son las llaves("keys") asociadas a los objetos, es decir, que cada propiedad es una particularidad del objeto. Las propiedades son únicas en cada objeto, no se repiten dentro del mismo. Pueden estar definidas en la creación del objeto, o pueden ser agregadas/eliminadas posteriormente.
+
+Métodos:
+    Si la propiedad está asociada a una función, ésta se denomina método. Cuando se cita un método dentro del objeto, se le agrega al nombre los paréntesis finales().
+    Y al igual que cualquier función, ésta puede llevar argumentos.
+
+Bucle for...in:
+    Como los objetos no tienen índices numéricos, éste bucle aprovecha el contenido del objeto para iterar sobre cada clave del mismo. Como el bucle for normal, en éste debemos definir una variable que hará la iteración, la cual en lugar de ser un número, tomará el nombre de cada clave.
+
+Notación de puntos vs notación de corchetes:
+    Hay 2 formas de acceder a las porpiedades/métodos de un objeto. Por medio de la notación "objeto.clave"; o por la forma "objeto['Clave']"
+    Para éste último, la clave debe ir entre comillas, pués de otro modo, estaría haciendo referencia a una variable, que tiene un contenido dentro, que debería ser una clave. Es por ésto, que la notación con corchetes generalmente se usa con variables. 
+
+    ##end

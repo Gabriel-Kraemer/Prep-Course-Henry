@@ -1,0 +1,3 @@
+Concepto Array:
+    Un array en JS, es una variable que contiene dentro una lista de elementos con un orden. En matemáticas un array es una matriz, a la cual se puede acceder a través de un índice.
+    Cada elemento puede tener un tipo diferente de dato (booleano, string, int, etc.) y los mismos pueden ser operados a través de métodos aplicables al array.
