@@ -1,0 +1,6 @@
+En ésta tarea explicamos lo siguiente.
+
+Prototype:
+    El llamado __proto__ dentro de JS, es el objeto donde se alojan las bases de la class o constructor.    
+
+_Constructors_:
