@@ -1,0 +1,5 @@
+Explicación de las funciónes CallBack:
+
+    Estas se utilizan para devolver resultados a otras funciones dentro de ellas. Es decir, Callback es una función, que se pasa como argumento a otra función. 
+    Así como llamamos "método" a una función declarada dentro de una clase, se llama Callback a una función dentro de otra.
+    
