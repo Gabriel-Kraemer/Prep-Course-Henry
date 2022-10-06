@@ -1,6 +1,8 @@
 En ésta tarea explicamos lo siguiente.
 
 Prototype:
-    El llamado __proto__ dentro de JS, es el objeto donde se alojan las bases de la class o constructor.    
+    El llamado __proto__ dentro de JS, es el objeto donde se alojan las bases de la class o constructor. Alli se alojan las propiedades y métodos que no están definidas en la estructura de la clase.   
 
-_Constructors_:
+Constructores:
+    Son métodos especiales utilizados para crear un objeto nuevo a partir de una clase,
+
