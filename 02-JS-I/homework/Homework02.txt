@@ -1,11 +1,9 @@
 ﻿Variables:
-Las variables, son lugares donde se guarda información.
-Las mismas, pueden contener distintos tipos de información. Pueden ser
-número, pueden ser letras o palabras, pueden contener estados lógicos 
-(true o false), pueden guardar estados como null o undefined.
+Las variables, son los nombres que se les da a los espacios de memoria donde se guarda información.
+Las mismas, pueden contener distintos tipos de información. Pueden ser números, texto, pueden contener estados lógicos (true o false), o pueden guardar estados como null o undefined.
 
 Strings:
-Las strings son "cadenas de caracteres". Todo aquello que escribamos entre comillas, podemos considerarlo una string.
+Las strings son "cadenas de caracteres". Todo aquello que escribamos entre comillas, podemos considerarlo una string. Se almacena dentro de una variable como texto.
 
 Funciones (argumentos, return): 
 Las funciones son unos tipos de objetos que pueden realizar varias operaciones y luego pueden llamarse las veces que sea necesario en cualquier parte del programa.

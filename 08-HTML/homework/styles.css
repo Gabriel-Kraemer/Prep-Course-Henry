@@ -1,9 +1,22 @@
+html{
+    background-image: linear-gradient(45deg, rgb(34, 161, 83), rgb(95, 95, 209));
+}
+
+
 h1{
-    color:brown;
+    color:rgba(173, 65, 65, 0.986);
+}
+h3{
+    font-style: normal;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
 }
 img{
-    width: 400px;
-    height: 290px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    margin-left: 130px;
+    position: relative;
 }
 #ThirdDiv{
     height: 600px;
@@ -15,4 +28,26 @@ img{
 #SpanId{
     font-size: 18px;
     margin: 50px;
+}
+
+div{
+    height:fit-content;
+    width: 550px;
+    box-sizing: content-box;
+    border: 2px solid rgb(8, 19, 177);
+    background: rgb(169, 206, 211);
+}
+
+#descripcion{
+    flex: auto;
+    width: 550px;
+    box-sizing: border-box ;
+
+}
+.educa{
+    color: rgb(60, 13, 104);
+    
+}
+li{
+    font-style: italic;
 }

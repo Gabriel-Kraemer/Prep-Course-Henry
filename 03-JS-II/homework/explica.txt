@@ -3,9 +3,9 @@ EL for es utilizado para repetir un bloque de código, mientras se cumpla una co
 El for necesita tener definida una variable, que se utilizará dentro de una comparación y que deberá incrementarse una vez evaluada y ejecutado el código encerrado entre llaves.
 
 "&&":
-En java representa un operador lógico Y o AND, que une dos elementos lógicos "true" o "false", que son resultado de las expresiones o forzados a estados lógicos a ambos lados del operador. Devolverá "true" solo si ambas expresiones son verdaderas.
+En java representa un operador lógico Y o AND, que une dos elementos lógicos "true" o "false", que son resultado de las expresiones o forzados a estados lógicos a ambos lados del operador. Devolverá "true" solo si ambas expresiones son verdaderas. Si el primer elemento es "falso", no continúa analizando el otro elemento, pues ambos deberían ser verdaderos para que la expresión sea verdadera.
 "||":
-Esta doble barra vertical representa al operador lógico OR, que compara dos expresiones lógicas también. Este devolverá "true" si al menos una de las expresiones es verdadera.
+Esta doble barra vertical representa al operador lógico OR, que compara dos expresiones lógicas también. Este devolverá "true" si al menos una de las expresiones es verdadera. Lo mismo que el &&, si el primer elemento es "verdadero", ya no analiza el resto del comparador, ya que con el primer "true" es suficiente.
 "!":
 El operador lógico !, representa un estado invertido de los dos anteriores. También se lo utiliza para indicar el estado opuesto de una igualdad (!= o !==), dando el resultado opuesto.
 
